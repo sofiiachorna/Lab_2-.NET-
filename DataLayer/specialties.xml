@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<specialties>
+	<Specialty>
+		<SpecialtyName>Informational systems and technologies</SpecialtyName>
+		<SpecialtyId>126</SpecialtyId>
+	</Specialty>
+	<Specialty>
+		<SpecialtyName>Software engineering</SpecialtyName>
+		<SpecialtyId>121</SpecialtyId>
+	</Specialty>
+	<Specialty>
+		<SpecialtyName>Computer engineering</SpecialtyName>
+		<SpecialtyId>123</SpecialtyId>
+	</Specialty>
+</specialties>

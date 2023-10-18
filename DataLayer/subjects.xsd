@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="subjects">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" name="Subject">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SubjectName" type="xs:string" />
+							<xs:element name="SubjectId" type="xs:unsignedByte" />
+							<xs:element name="TeacherId" type="xs:unsignedByte" />
+							<xs:element name="TeacherName" type="xs:string" />
+							<xs:element name="ControlType" type="xs:string" />
+							<xs:element name="Hours" type="xs:unsignedByte" />
+							<xs:element name="SpecialtyId" type="xs:unsignedByte" />
+							<xs:element name="Course" type="xs:unsignedByte" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hotel>
+  <rooms>
+    <room>
+      <number>307</number>
+      <id>3</id>
+      <type>lux</type>
+      <capacity>4</capacity>
+      <addittionId>4</addittionId>
+    </room>
+  </rooms>
+</hotel>

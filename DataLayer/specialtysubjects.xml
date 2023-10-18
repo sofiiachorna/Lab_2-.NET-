@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<specialtysubjects>
+	<SpecialtySubject>
+		<SpecialtyId>126</SpecialtyId>
+		<SubjectId>2</SubjectId>
+	</SpecialtySubject>
+	<SpecialtySubject>
+		<SpecialtyId>123</SpecialtyId>
+		<SubjectId>4</SubjectId>
+	</SpecialtySubject>
+	<SpecialtySubject>
+		<SpecialtyId>121</SpecialtyId>
+		<SubjectId>1</SubjectId>
+	</SpecialtySubject>
+	<SpecialtySubject>
+		<SpecialtyId>126</SpecialtyId>
+		<SubjectId>3</SubjectId>
+	</SpecialtySubject>
+	<SpecialtySubject>
+		<SpecialtyId>123</SpecialtyId>
+		<SubjectId>1</SubjectId>
+	</SpecialtySubject>
+	<SpecialtySubject>
+		<SpecialtyId>121</SpecialtyId>
+		<SubjectId>2</SubjectId>
+	</SpecialtySubject>
+</specialtysubjects>

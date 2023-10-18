@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<teachers>
+	<Teacher>
+		<TeacherName>Korobko Liudmyla Vasylivna</TeacherName>
+		<TeacherId>1</TeacherId>
+	</Teacher>
+	<Teacher>
+		<TeacherName>Tugushi Georgii Romanovych</TeacherName>
+		<TeacherId>2</TeacherId>
+	</Teacher>
+	<Teacher>
+		<TeacherName>Stelmakh Kateryna Petrivna</TeacherName>
+		<TeacherId>3</TeacherId>
+	</Teacher>
+	<Teacher>
+		<TeacherName>Kushch Valeria Viktorivna</TeacherName>
+		<TeacherId>4</TeacherId>
+	</Teacher>
+</teachers>

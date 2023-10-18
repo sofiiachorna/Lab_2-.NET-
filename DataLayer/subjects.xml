@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<subjects>
+	<Subject>
+		<SubjectName>Artificial Intellegence Systems</SubjectName>
+		<SubjectId>1</SubjectId>
+		<TeacherId>4</TeacherId>
+		<TeacherName>Kushch Valeria Viktorivna</TeacherName>
+		<ControlType>exam</ControlType>
+		<Hours>130</Hours>
+		<SpecialtyId>121</SpecialtyId>
+		<Course>3</Course>
+	</Subject>
+	<Subject>
+		<SubjectName>Basics of Object-oriented Programming</SubjectName>
+		<SubjectId>2</SubjectId>
+		<TeacherId>3</TeacherId>
+		<TeacherName>Stelmakh Kateryna Petrivna</TeacherName>
+		<ControlType>credit</ControlType>
+		<Hours>110</Hours>
+		<SpecialtyId>121</SpecialtyId>
+		<Course>1</Course>
+	</Subject>
+	<Subject>
+		<SubjectName>Databases</SubjectName>
+		<SubjectId>3</SubjectId>
+		<TeacherId>2</TeacherId>
+		<TeacherName>Tugushi Georgii Romanovych</TeacherName>
+		<ControlType>exam</ControlType>
+		<Hours>125</Hours>
+		<SpecialtyId>126</SpecialtyId>
+		<Course>2</Course>
+	</Subject>
+	<Subject>
+		<SubjectName>Computer networks</SubjectName>
+		<SubjectId>4</SubjectId>
+		<TeacherId>1</TeacherId>
+		<TeacherName>Korobko Liudmyla Vasylivna</TeacherName>
+		<ControlType>credit</ControlType>
+		<Hours>130</Hours>
+		<SpecialtyId>123</SpecialtyId>
+		<Course>3</Course>
+	</Subject>
+</subjects>

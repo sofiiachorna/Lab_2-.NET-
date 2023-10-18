@@ -1,0 +1,2 @@
+D:\kpi\2 KURS\.NET labs\Lab #2\Lab_2\obj\Debug\Lab_2.csproj.AssemblyReference.cache
+D:\kpi\2 KURS\.NET labs\Lab #2\Lab_2\obj\Debug\Lab_2.csproj.CoreCompileInputs.cache

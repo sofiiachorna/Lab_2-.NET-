@@ -26,6 +26,8 @@ namespace Lab_2_main
             serviceCollection.AddTransient<IShowXml, ShowXml>();
             serviceCollection.AddTransient<IXDocumentData, XDocumentData>();
             serviceCollection.AddTransient<IValidation, Validation>();
+            serviceCollection.AddTransient<IRead, ReadConsoleXml>();
+            serviceCollection.AddTransient<IShowConsole, ShowConsole>();
             return serviceCollection.BuildServiceProvider();
         }
         static void Main(string[] args)

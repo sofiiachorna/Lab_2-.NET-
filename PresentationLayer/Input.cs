@@ -50,7 +50,7 @@ namespace PresentationLayer
             items.Add(Console.ReadLine());
             Console.WriteLine("Введіть курс викладання:");
             items.Add(Console.ReadLine());
-            create.XmlwriterSubject(path + "subjects.xml", items);
+            create.XmlwriterSubject(path + "console_input.xml", items);
         }
         private void teacherInput()
         {
@@ -59,7 +59,7 @@ namespace PresentationLayer
             items.Add(Console.ReadLine());
             Console.WriteLine("Введіть id викладача:");
             items.Add(Console.ReadLine());
-            create.XmlwriterTeacher(path + "teachers.xml", items);
+            create.XmlwriterTeacher(path + "console_input.xml", items);
         }
         private void specialtyInput()
         {
@@ -68,7 +68,7 @@ namespace PresentationLayer
             items.Add(Console.ReadLine());
             Console.WriteLine("Введіть код спеціальності:");
             items.Add(Console.ReadLine());
-            create.XmlwriterSpecialty(path + "specialties.xml", items);
+            create.XmlwriterSpecialty(path + "console_input.xml", items);
         }
         private void specialtysubjectInput()
         {
@@ -77,7 +77,7 @@ namespace PresentationLayer
             items.Add(Console.ReadLine());
             Console.WriteLine("Введіть id диципліни:");
             items.Add(Console.ReadLine());
-            create.XmlwriterSpecialtySubject(path + "specialtysubjects.xml", items);
+            create.XmlwriterSpecialtySubject(path + "console_input.xml", items);
         }
     }
 }

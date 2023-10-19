@@ -24,7 +24,6 @@ namespace DataLayer
             XDocument.Load("D:\\kpi\\2 KURS\\.NET labs\\Lab #2\\DataLayer\\specialties.xml") : null;
         public XDocument specialtysubjects => validator.validate("D:\\kpi\\2 KURS\\.NET labs\\Lab #2\\DataLayer\\specialtysubjects.xml") ?
             XDocument.Load("D:\\kpi\\2 KURS\\.NET labs\\Lab #2\\DataLayer\\specialtysubjects.xml") : null;
-
         private void checkDoc()
         {
             bool count = false;

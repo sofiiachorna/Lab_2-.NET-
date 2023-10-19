@@ -11,7 +11,7 @@ namespace ProcessingLayer
 {
     public class Queries : IQuery
     {
-        private readonly IXDocumentData data;
+        private readonly IXDocumentData data; 
         public Queries(IXDocumentData data)
         {
             this.data = data;

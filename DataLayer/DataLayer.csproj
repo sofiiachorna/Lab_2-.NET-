@@ -9,4 +9,8 @@
     <PackageReference Include="System.Xml.XmlDocument" Version="4.3.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="XmlWriter\" />
+  </ItemGroup>
+
 </Project>

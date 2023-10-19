@@ -10,16 +10,19 @@ namespace PresentationLayer
         private readonly IOutput output;
         private readonly IInput input;
         private readonly IShowXml show;
-        public ProgramExecute(IOutput output,IInput input, IShowXml show)
+        private readonly IShowConsole showConsole;
+        public ProgramExecute(IOutput output,IInput input, IShowXml show, IShowConsole showConsole)
         {
             this.output = output;
             this.input = input;
             this.show = show;
+            this.showConsole = showConsole;
         }
 
         private enum methods
         {
             inputFromConsole,
+            showFromConsole,
             showXml,
             showSelectedsubjectToCourse,
             showSelectedSubjectToControlType,
@@ -42,6 +45,7 @@ namespace PresentationLayer
             Dictionary<methods, Action> methodsOutput = new Dictionary<methods, Action>()
             {
                  {methods.inputFromConsole,input.input },
+                 {methods.showFromConsole,showConsole.show },
                  {methods.showXml,show.chooseXml },
                  {methods.showSelectedsubjectToCourse,output.showSelectedsubjectToCourse},
                  {methods.showSelectedSubjectToControlType,output.showSelectedSubjectToControlType},
